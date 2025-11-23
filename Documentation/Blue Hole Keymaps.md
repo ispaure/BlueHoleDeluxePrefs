@@ -1,6 +1,14 @@
 Here is the list of **Key Mappings** relevant to artists in Blender.
 
-# 📖 Table of Contents
+> [!NOTE] Mouse-related acronyms
+> Note the mouse-related acronyms:
+> - LMB: Left Mouse Button
+> - MMB: Middle Mouse Button
+> - RMB: Right Mouse Button
+> - MW: Mouse Wheel
+
+
+# 📖 TABLE OF CONTENTS
 ---
 Feel free to use this Table of Contents. You can also search this page for any keyword such as `collection` to find its keymap quicly.
 - [🖱️ Mouse Input](#️-mouse-input)
@@ -14,17 +22,6 @@ Feel free to use this Table of Contents. You can also search this page for any k
 - [🥧 FULL PIE MENU LIST](#-full-pie-menu-list)
 - [❓ ADDITIONAL INFORMATION](#-additional-information)
 
-
-# 🖱️ Mouse Input Acronyms
----
-To simplify this document, some acronyms are used for mouse inputs.
-
-| **Acronym** | **Mouse Input**     |
-| ----------- | ------------------- |
-| LMB         | Left Mouse Button   |
-| RMB         | Right Mouse Button  |
-| MMB         | Middle Mouse Button |
-| MW          | Mouse Wheel         |
 
 
 # 💾 **SYSTEM**
@@ -68,7 +65,6 @@ Basic keymaps to load, save, undo/redo.
 | Select Childs       | Shift + Wheel Down |                  |                                                                                               |
 | Walk Up Hierarchy   | Ctrl + Wheel Up    |                  |                                                                                               |
 | Walk Down Hierarchy | Ctrl + Wheel Down  |                  |                                                                                               |
-
 
 ## Show / Hide
 
