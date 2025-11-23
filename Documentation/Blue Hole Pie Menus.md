@@ -22,9 +22,9 @@ Feel free to use this Table of Contents. You can also search this page for any k
 ---
 These menus are unique to **Object Mode**.
 ## 🍰 Tool
-Keymap: `Shift + RMB Drag`
-Additional dependencies: [HardOPS](https://superhivemarket.com/products/hard-ops--boxcutter-ultimate-bundle).
-Internal name: `BLUEHOLE_MT_pie_object_tool`
+Keymap: `Shift + RMB Drag`  
+Additional dependencies: [HardOPS](https://superhivemarket.com/products/hard-ops--boxcutter-ultimate-bundle).  
+Internal name: `BLUEHOLE_MT_pie_object_tool`  
 ```mermaid
 graph TD
 
@@ -52,9 +52,9 @@ graph TD
 _**Modifier Options** → Link/Transfer Data, Apply Modifiers_
 
 ## 🍰 Action
-Keymap: `Ctrl + RMB Drag`
-Additional dependencies: N/A
-Internal Name: `BLUEHOLE_MT_pie_object_action`
+Keymap: `Ctrl + RMB Drag`  
+Additional dependencies: N/A  
+Internal Name: `BLUEHOLE_MT_pie_object_action`  
 ```mermaid
 graph TD
 
@@ -88,9 +88,9 @@ _**Select** → Select Grouped, Select Parent, Invert, Select Children
 ---
 These menus are unique to **Mesh Edit Mode**, which corresponds to **Vertex**, **Edge** and **Face** selection.
 ## 🍰 Tool
-Keymap: `Shift + RMB Drag`
-Additional dependencies: N/A
-Internal Name: `BLUEHOLE_MT_pie_mesh_tool`
+Keymap: `Shift + RMB Drag`  
+Additional dependencies: N/A  
+Internal Name: `BLUEHOLE_MT_pie_mesh_tool`  
 ```mermaid
 graph TD
 
@@ -118,9 +118,9 @@ graph TD
 
 ## 🍰 Action (Vertex)
 Context: **Vertex Edit Mode**
-Keymap: `Ctrl + RMB Drag`
-Additional dependencies: N/A
-Internal Name: `BLUEHOLE_MT_pie_mesh_action`
+Keymap: `Ctrl + RMB Drag`  
+Additional dependencies: N/A  
+Internal Name: `BLUEHOLE_MT_pie_mesh_action`  
 ```mermaid
 graph TD
 
@@ -150,9 +150,9 @@ _**More →**_ _To Sphere, Symmetrize, Quick Flatten, Vertex to Circle, Quick L
 
 ## 🍰 Action (Edge)
 Context: **Edge Edit Mode**
-Keymap: `Ctrl + RMB Drag`
-Additional dependencies: N/A
-Internal Name: `BLUEHOLE_MT_pie_mesh_action`
+Keymap: `Ctrl + RMB Drag`  
+Additional dependencies: N/A  
+Internal Name: `BLUEHOLE_MT_pie_mesh_action`  
 ```mermaid
 graph TD
 
@@ -182,9 +182,9 @@ _**More →**_ _Subdivide Edge-Ring, Rotate Selected Edge (Right), Quick Pipe, 
 
 ## 🍰 Action (Face)
 Context: **Face Edit Mode**
-Keymap: `Ctrl + RMB Drag`
-Additional dependencies: N/A
-Internal Name: `BLUEHOLE_MT_pie_mesh_action`
+Keymap: `Ctrl + RMB Drag`  
+Additional dependencies: N/A  
+Internal Name: `BLUEHOLE_MT_pie_mesh_action`  
 ```mermaid
 graph TD
 
@@ -214,10 +214,10 @@ _**More →**_ _Poke Face, Recalculate Normals Inside, Recalculate Normals Outs
 
 ## 🍰 Action UV Special (Vertex, Edge, Face)
 *This menu has **UV-related** options. It is available from all three **Vertex**, **Edge** and **Face** modes.*
-Keymap: `Ctrl + Alt + Shift + RMB Drag`
-Additional dependencies: [ZenUV](https://superhivemarket.com/products/zen-uv), [DreamUV](https://github.com/leukbaars/DreamUV)
-Additional dependencies: N/A
-Internal Name: `BLUEHOLE_MT_pie_mesh_action_uvspecial`
+Keymap: `Ctrl + Alt + Shift + RMB Drag`  
+Additional dependencies: [ZenUV](https://superhivemarket.com/products/zen-uv), [DreamUV](https://github.com/leukbaars/DreamUV)  
+Additional dependencies: N/A  
+Internal Name: `BLUEHOLE_MT_pie_mesh_action_uvspecial`  
 ```mermaid
 graph TD
 
@@ -249,9 +249,9 @@ graph TD
 ---
 These menus are unique to the **Curve Edit Mode**.
 ## 🍰 Tool
-Keymap: `Shift + RMB Drag`
-Additional dependencies: N/A
-Internal Name: `BLUEHOLE_MT_pie_curve_tool`
+Keymap: `Shift + RMB Drag`  
+Additional dependencies: N/A  
+Internal Name: `BLUEHOLE_MT_pie_curve_tool`  
 ```mermaid
 graph TD
 
@@ -278,9 +278,9 @@ graph TD
 ```
 
 ## 🍰 Action
-Keymap: `Ctrl + RMB Drag`
-Additional dependencies: N/A
-Internal Name: `BLUEHOLE_MT_pie_curve_action`
+Keymap: `Ctrl + RMB Drag`  
+Additional dependencies: N/A  
+Internal Name: `BLUEHOLE_MT_pie_curve_action`  
 ```mermaid
 graph TD
 
@@ -312,9 +312,9 @@ graph TD
 ---
 These menus are unique to the **Sculpting** mode. They include all the brushes that come by default with Blender.
 ## 🍰 General
-Keymap: `Shift + RMB Drag`
-Additional dependencies: N/A
-Internal Name: `BLUEHOLE_MT_pie_sculpt_tool`
+Keymap: `Shift + RMB Drag`  
+Additional dependencies: N/A  
+Internal Name: `BLUEHOLE_MT_pie_sculpt_tool`  
 ```mermaid
 graph TD
 
@@ -346,9 +346,9 @@ _**Grab →**_ _Grab Silhouette, Elastic Snake Hook, Snake Hook, Nudge, Thumb, 
 **Flatten/Pinch →**_ _Boundary, Scrape/Fill, Scrape Multiplane, Trim, Smooth, Plateau, Flatten/Contrast, Pinch/Magnify_
 
 ## 🍰 Paint
-Keymap: `Ctrl + RMB Drag`
-Additional dependencies: N/A
-Internal Name: `BLUEHOLE_MT_pie_sculpt_action`
+Keymap: `Ctrl + RMB Drag`  
+Additional dependencies: N/A  
+Internal Name: `BLUEHOLE_MT_pie_sculpt_action`  
 ```mermaid
 graph TD
 
@@ -376,9 +376,9 @@ graph TD
 _**Blend/Blur** **→**_ _Paint Blend, Blend Square, Blend Hard, Blend Soft, Smear, Airbrush_
 
 ## 🍰 Simulation
-Keymap: `Ctrl+ Alt + Shift + RMB Drag`
-Additional dependencies: N/A
-Internal Name: `BLUEHOLE_MT_pie_sculpt_simulation`
+Keymap: `Ctrl+ Alt + Shift + RMB Drag`  
+Additional dependencies: N/A  
+Internal Name: `BLUEHOLE_MT_pie_sculpt_simulation`  
 ```mermaid
 graph TD
 
@@ -412,9 +412,9 @@ _**Bend/Stretch/Twist →**_ _Twist Boundary Cloth, Bend/Twist Cloth, Stretch/M
 ---
 These menus are unique to the **UV Editor** 2D View.
 ## 🍰 Tool
-Keymap: `Shift + RMB Drag`
-Additional dependencies: [ZenUV](https://superhivemarket.com/products/zen-uv)
-Internal Name: `BLUEHOLE_MT_pie_UV_tool`
+Keymap: `Shift + RMB Drag`  
+Additional dependencies: [ZenUV](https://superhivemarket.com/products/zen-uv)  
+Internal Name: `BLUEHOLE_MT_pie_UV_tool`  
 ```mermaid
 graph TD
 
@@ -441,9 +441,9 @@ graph TD
 ```
 
 ## 🍰 Action
-Keymap: `Ctrl + RMB Drag`
-Dependencies: [ZenUV](https://superhivemarket.com/products/zen-uv)
-Internal Name: `BLUEHOLE_MT_pie_UV_action`
+Keymap: `Ctrl + RMB Drag`  
+Dependencies: [ZenUV](https://superhivemarket.com/products/zen-uv)  
+Internal Name: `BLUEHOLE_MT_pie_UV_action`  
 ```mermaid
 graph TD
 
@@ -471,9 +471,9 @@ graph TD
 _**Select →**_ _Select Interseam Loop, Select Seams Edges, Select Flipped Islands, Select Overlapped Islands, Select Similar Islands, Select Split Edges, Select Stretched Faces, Select UV Borders_
 
 ## 🍰 Action (Special)
-Keymap: `Ctrl + Alt + Shift + RMB Drag`
-Dependencies: [ZenUV](https://superhivemarket.com/products/zen-uv)
-Internal Name: `BLUEHOLE_MT_pie_UV_action_uvspecial`
+Keymap: `Ctrl + Alt + Shift + RMB Drag`  
+Dependencies: [ZenUV](https://superhivemarket.com/products/zen-uv)  
+Internal Name: `BLUEHOLE_MT_pie_UV_action_uvspecial`  
 ```mermaid
 graph TD
 
@@ -500,9 +500,9 @@ graph TD
 ```
 
 ## 🍰 Cursor
-Keymap: `Ctrl + Shift + RMB Drag`
-Dependencies: N/A
-Internal Name: `BLUEHOLE_MT_pie_UV_cursor`
+Keymap: `Ctrl + Shift + RMB Drag`  
+Dependencies: N/A  
+Internal Name: `BLUEHOLE_MT_pie_UV_cursor`  
 ```mermaid
 graph TD
 
@@ -533,9 +533,9 @@ graph TD
 # 💾 **FILE MANAGEMENT**
 ---
 ## 🍰 Directories
-Keymap: `F3`
-Dependencies: N/A
-Internal Name: `BLUEHOLE_MT_pie_global_dirs`
+Keymap: `F3`  
+Dependencies: N/A  
+Internal Name: `BLUEHOLE_MT_pie_global_dirs`  
 ```mermaid
 graph TD
 
@@ -563,9 +563,9 @@ graph TD
 
 ## 🍰 Import / Export
 Context: This menu functions in **Object Mode only**.
-Keymap: `Ctrl + Alt + Shift + RMB Click`
-Dependencies: N/A
-Internal Name: `BLUEHOLE_MT_pie_global_import_export`
+Keymap: `Ctrl + Alt + Shift + RMB Click`  
+Dependencies: N/A  
+Internal Name: `BLUEHOLE_MT_pie_global_import_export`  
 ```mermaid
 graph TD
 
@@ -595,8 +595,8 @@ graph TD
 
 # 🙋‍♂️ **HELP**
 ---
-Keymap: `F1`
-Dependencies: N/A
+Keymap: `F1`  
+Dependencies: N/A  
 ```mermaid
 graph TD
 
