@@ -9,7 +9,7 @@ Here is the list of Pie Menus for Blue Hole.
 ---
 Feel free to use this Table of Contents. You can also search this page for any keyword such as `extrude` to find its pie menu quickly.
 - [🧊 OBJECT MODE](#-object-mode)
-- [🛠️ EDIT MESH MODE](#-edit-mesh-mode)
+- [🛠️ MESH EDIT MODE](#-mesh-edit-mode)
 - [🍑 CURVES](#-curves)
 - [🖌️ SCULPT](#-sculpt)
 - [🗾 UV EDITOR](#-uv-editor)
@@ -84,7 +84,7 @@ _**Select** → Select Grouped, Select Parent, Invert, Select Children
 
 
 
-# 🛠️ **EDIT MESH MODE**
+# 🛠️ **MESH EDIT MODE**
 ---
 These menus are unique to **Mesh Edit Mode**, which corresponds to **Vertex**, **Edge** and **Face** selection.
 ## 🍰 Tool

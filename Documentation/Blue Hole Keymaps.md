@@ -11,7 +11,6 @@ Here is the list of **Key Mappings** relevant to artists in Blender.
 # 📖 TABLE OF CONTENTS
 ---
 Feel free to use this Table of Contents. You can also search this page for any keyword such as `collection` to find its keymap quickly.
-- [🖱️ Mouse Input](#️-mouse-input)
 - [💾 SYSTEM](#-system)
 - [📷 CAMERA NAVIGATION](#-camera-navigation)
 - [🪟 LAYOUT](#-layout)
