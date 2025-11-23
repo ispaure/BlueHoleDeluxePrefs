@@ -567,7 +567,7 @@ graph TD
 ```
 
 ## 🍰 Import / Export
-Context: This menu functions in **Object Mode only**.
+Context: This menu functions in **Object Mode only**.  
 Keymap: `Ctrl + Alt + Shift + RMB Click`  
 Dependencies: N/A  
 Internal Name: `BLUEHOLE_MT_pie_global_import_export`  
