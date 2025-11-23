@@ -1,10 +1,10 @@
 Here is the list of Pie Menus for Blue Hole.
-
+  
 > [!NOTE] Dependencies
 > **Note that the Deluxe edition of Blue Hole is required for any Pie Menu shown here.**
 > Added dependencies are noted (whenever applicable). The menu would still popup but some option(s) may be missing, with shown warnings.
-
-
+  
+  
 # 📖 TABLE OF CONTENTS
 ---
 Feel free to use this Table of Contents. You can also search this page for any keyword such as `extrude` to find its pie menu quickly.
@@ -17,10 +17,11 @@ Feel free to use this Table of Contents. You can also search this page for any k
 - [🙋‍♂️ HELP](#-help)
 - [🥧 PIE MENU LIST (WITH KEYMAPS)](#-pie-menu-list-with-keymaps)
 - [🥷 USING THE PIE MENUS WITHOUT DELUXE](#-using-the-pie-menus-without-deluxe)
-
+  
 # 🧊 **OBJECT MODE**
 ---
 These menus are unique to **Object Mode**.
+  
 ## 🍰 Tool
 Keymap: `Shift + RMB Drag`  
 Additional dependencies: [HardOPS](https://superhivemarket.com/products/hard-ops--boxcutter-ultimate-bundle).  
@@ -50,7 +51,7 @@ graph TD
     linkStyle default stroke:transparent,stroke-width:0;
 ```
 _**Modifier Options** → Link/Transfer Data, Apply Modifiers_
-
+  
 ## 🍰 Action
 Keymap: `Ctrl + RMB Drag`  
 Additional dependencies: N/A  
@@ -81,12 +82,13 @@ graph TD
 ```
 _**Select** → Select Grouped, Select Parent, Invert, Select Children  
 **More** → Convert to Mesh, Apply Modifiers, Make Instances Real, Clean, Convert to Curve_
-
-
-
+  
+  
+  
 # 🛠️ **MESH EDIT MODE**
 ---
 These menus are unique to **Mesh Edit Mode**, which corresponds to **Vertex**, **Edge** and **Face** selection.
+  
 ## 🍰 Tool
 Keymap: `Shift + RMB Drag`  
 Additional dependencies: N/A  
@@ -115,7 +117,7 @@ graph TD
     %% Hide all connectors AND arrowheads
     linkStyle default stroke:transparent,stroke-width:0;
 ```
-
+  
 ## 🍰 Action (Vertex)
 Context: **Vertex Edit Mode**
 Keymap: `Ctrl + RMB Drag`  
@@ -147,7 +149,7 @@ graph TD
 ```
 _**Select →**_ _Random, Invert, Loose Geometry_  
 _**More →**_ _To Sphere, Symmetrize, Quick Flatten, Vertex to Circle, Quick Lattice_
-
+  
 ## 🍰 Action (Edge)
 Context: **Edge Edit Mode**
 Keymap: `Ctrl + RMB Drag`  
@@ -179,7 +181,7 @@ graph TD
 ```
 _**Select →**_ _Smart Loop, Sharp Edges, Invert, Smart Ring, Loop Inner-Region_  
 _**More →**_ _Subdivide Edge-Ring, Rotate Selected Edge (Right), Quick Pipe, Rotate Selected Edge (Left), Mesh Angle, Collapse_
-
+  
 ## 🍰 Action (Face)
 Context: **Face Edit Mode**
 Keymap: `Ctrl + RMB Drag`  
@@ -211,7 +213,7 @@ graph TD
 ```
 _**Select →**_ _Boundary Loop, Linked Flat Faces, Invert, Loose Geometry, Random_  
 _**More →**_ _Poke Face, Recalculate Normals Inside, Recalculate Normals Outside, Subdivide, Tris to Quads, Flip, Triangulate Faces, Un-Subdivide_
-
+  
 ## 🍰 Action UV Special (Vertex, Edge, Face)
 *This menu has **UV-related** options. It is available from all three **Vertex**, **Edge** and **Face** modes.*
 Keymap: `Ctrl + Alt + Shift + RMB Drag`  
@@ -242,12 +244,13 @@ graph TD
     %% Hide all connectors AND arrowheads
     linkStyle default stroke:transparent,stroke-width:0;
 ```
-
-
-
+  
+  
+  
 # 🍑 **CURVES**
 ---
 These menus are unique to the **Curve Edit Mode**.
+  
 ## 🍰 Tool
 Keymap: `Shift + RMB Drag`  
 Additional dependencies: N/A  
@@ -276,7 +279,7 @@ graph TD
     %% Hide all connectors AND arrowheads
     linkStyle default stroke:transparent,stroke-width:0;
 ```
-
+  
 ## 🍰 Action
 Keymap: `Ctrl + RMB Drag`  
 Additional dependencies: N/A  
@@ -305,12 +308,13 @@ graph TD
     %% Hide all connectors AND arrowheads
     linkStyle default stroke:transparent,stroke-width:0;
 ```
-
-
-
+  
+  
+  
 # 🖌️ **SCULPT**
 ---
 These menus are unique to the **Sculpting** mode. They include all the brushes that come by default with Blender.
+  
 ## 🍰 General
 Keymap: `Shift + RMB Drag`  
 Additional dependencies: N/A  
@@ -344,7 +348,7 @@ _**Clay/Blob →**_ _Clay, Fill/Deepen, Clay Thumb, Clay Strips, Blob, Layer
 _**Grab →**_ _Grab Silhouette, Elastic Snake Hook, Snake Hook, Nudge, Thumb, Grab 2D, Elastic Grab, Grab  
 **Misc →**_ _Density, Face Set Paint, Relax Slide, Smear Multires Displacement, Twist, Mask, Relax Pinch, Erase Multires Displacement  
 **Flatten/Pinch →**_ _Boundary, Scrape/Fill, Scrape Multiplane, Trim, Smooth, Plateau, Flatten/Contrast, Pinch/Magnify_
-
+  
 ## 🍰 Paint
 Keymap: `Ctrl + RMB Drag`  
 Additional dependencies: N/A  
@@ -374,7 +378,7 @@ graph TD
     linkStyle default stroke:transparent,stroke-width:0;
 ```
 _**Blend/Blur** **→**_ _Paint Blend, Blend Square, Blend Hard, Blend Soft, Smear, Airbrush_
-
+  
 ## 🍰 Simulation
 Keymap: `Ctrl+ Alt + Shift + RMB Drag`  
 Additional dependencies: N/A  
@@ -405,12 +409,13 @@ graph TD
 ```
 _**Bend/Stretch/Twist →**_ _Twist Boundary Cloth, Bend/Twist Cloth, Stretch/Move Cloth, Bend Boundary Cloth  
 **Expand/Contract →**_ _Inflate Cloth, Push Cloth, Expand/Contract Cloth_
-
-
-
+  
+  
+  
 # 🗾 **UV EDITOR**
 ---
 These menus are unique to the **UV Editor** 2D View.
+  
 ## 🍰 Tool
 Keymap: `Shift + RMB Drag`  
 Additional dependencies: [ZenUV](https://superhivemarket.com/products/zen-uv)  
@@ -439,7 +444,7 @@ graph TD
     %% Hide all connectors AND arrowheads
     linkStyle default stroke:transparent,stroke-width:0;
 ```
-
+  
 ## 🍰 Action
 Keymap: `Ctrl + RMB Drag`  
 Dependencies: [ZenUV](https://superhivemarket.com/products/zen-uv)  
@@ -469,7 +474,7 @@ graph TD
     linkStyle default stroke:transparent,stroke-width:0;
 ```
 _**Select →**_ _Select Interseam Loop, Select Seams Edges, Select Flipped Islands, Select Overlapped Islands, Select Similar Islands, Select Split Edges, Select Stretched Faces, Select UV Borders_
-
+  
 ## 🍰 Action (Special)
 Keymap: `Ctrl + Alt + Shift + RMB Drag`  
 Dependencies: [ZenUV](https://superhivemarket.com/products/zen-uv)  
@@ -498,7 +503,7 @@ graph TD
     %% Hide all connectors AND arrowheads
     linkStyle default stroke:transparent,stroke-width:0;
 ```
-
+  
 ## 🍰 Cursor
 Keymap: `Ctrl + Shift + RMB Drag`  
 Dependencies: N/A  
@@ -527,9 +532,9 @@ graph TD
     %% Hide all connectors AND arrowheads
     linkStyle default stroke:transparent,stroke-width:0;
 ```
-
-
-
+  
+  
+  
 # 💾 **FILE MANAGEMENT**
 ---
 ## 🍰 Directories
@@ -590,9 +595,9 @@ graph TD
     %% Hide all connectors AND arrowheads
     linkStyle default stroke:transparent,stroke-width:0;
 ```
-
-
-
+  
+  
+  
 # 🙋‍♂️ **HELP**
 ---
 Keymap: `F1`  
@@ -621,9 +626,9 @@ graph TD
     %% Hide all connectors AND arrowheads
     linkStyle default stroke:transparent,stroke-width:0;
 ```
-
-
-
+  
+  
+  
 # 🥧 **PIE MENU LIST (WITH KEYMAPS)**
 ---
 Here is a list of the pie menus available to you, as well as some important information:
@@ -651,8 +656,9 @@ Here is a list of the pie menus available to you, as well as some important info
 | Create                            | 3D Viewport                             | `Shift + A + Drag Mouse in Any Direction` | Blue Hole                    | Create new shapes, curves, etc.                                                                                      |
 | Hide                              | 3D Viewport                             | `Shift + S + Drag Mouse in Any Direction` | Blue Hole                    | Hide Selection, Isolate Selection, Reveal Hidden (All)                                                               |
 | Collection                        | 3D Viewport                             | `C + Drag Mouse in Any Direction`         | Blender                      | Pie Menu for Collections                                                                                             |
-
-
+  
+   
+  
 # 🥷 **USING THE PIE MENUS WITHOUT DELUXE**
 ---
 If you want to use the pie menus whilst using Blue Hole Regular (non-deluxe), you can bind keymaps to the menus by yourself.
@@ -661,3 +667,4 @@ If you want to use the pie menus whilst using Blue Hole Regular (non-deluxe), yo
 3. Find the proper context for the pie menu (eg. UV Editor)
 4. Add a new keymap entry
 5. Just make sure to use the `wm.open_menu_pie` operator and use the `Internal Name` specified under each Pie Menu in this document as name of the pie menu.
+
