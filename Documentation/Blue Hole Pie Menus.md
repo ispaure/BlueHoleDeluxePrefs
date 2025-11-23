@@ -8,7 +8,7 @@ Here is the list of Pie Menus for Blue Hole.
 # 🧊 Object Mode
 ---
 These menus are unique to **Object Mode**.
-## Tool
+## 🍰 Tool
 Keymap: `Shift + RMB Drag`
 Additional dependencies: [HardOPS](https://superhivemarket.com/products/hard-ops--boxcutter-ultimate-bundle).
 ```mermaid
@@ -37,7 +37,7 @@ graph TD
 ```
 _**Modifier Options** → Link/Transfer Data, Apply Modifiers_
 
-## Action
+## 🍰 Action
 Keymap: `Ctrl + RMB Drag`
 Additional dependencies: N/A
 ```mermaid
@@ -72,7 +72,7 @@ _**Select** → Select Grouped, Select Parent, Invert, Select Children
 # 🛠️ Edit Mesh Mode
 ---
 These menus are unique to **Mesh Edit Mode**, which corresponds to **Vertex**, **Edge** and **Face** selection.
-## Tool
+## 🍰 Tool
 Keymap: `Shift + RMB Drag`
 Additional dependencies: N/A
 ```mermaid
@@ -100,7 +100,8 @@ graph TD
     linkStyle default stroke:transparent,stroke-width:0;
 ```
 
-## Action (Vertex)
+## 🍰 Action (Vertex)
+Context: **Vertex Edit Mode**
 Keymap: `Ctrl + RMB Drag`
 Additional dependencies: N/A
 ```mermaid
@@ -130,7 +131,8 @@ graph TD
 _**Select →**_ _Random, Invert, Loose Geometry_  
 _**More →**_ _To Sphere, Symmetrize, Quick Flatten, Vertex to Circle, Quick Lattice_
 
-## Action (Edge)
+## 🍰 Action (Edge)
+Context: **Edge Edit Mode**
 Keymap: `Ctrl + RMB Drag`
 Additional dependencies: N/A
 ```mermaid
@@ -160,7 +162,8 @@ graph TD
 _**Select →**_ _Smart Loop, Sharp Edges, Invert, Smart Ring, Loop Inner-Region_  
 _**More →**_ _Subdivide Edge-Ring, Rotate Selected Edge (Right), Quick Pipe, Rotate Selected Edge (Left), Mesh Angle, Collapse_
 
-## Action (Face)
+## 🍰 Action (Face)
+Context: **Face Edit Mode**
 Keymap: `Ctrl + RMB Drag`
 Additional dependencies: N/A
 ```mermaid
@@ -190,7 +193,7 @@ graph TD
 _**Select →**_ _Boundary Loop, Linked Flat Faces, Invert, Loose Geometry, Random_  
 _**More →**_ _Poke Face, Recalculate Normals Inside, Recalculate Normals Outside, Subdivide, Tris to Quads, Flip, Triangulate Faces, Un-Subdivide_
 
-## Action UV Special (Vertex, Edge, Face)
+## 🍰 Action UV Special (Vertex, Edge, Face)
 *This menu has **UV-related** options. It is available from all three **Vertex**, **Edge** and **Face** modes.*
 Keymap: `Ctrl + Alt + Shift + RMB Drag`
 Additional dependencies: [ZenUV](https://superhivemarket.com/products/zen-uv), [DreamUV](https://github.com/leukbaars/DreamUV)
@@ -224,7 +227,8 @@ graph TD
 
 # 🍑 Curves
 ---
-## Tool
+These menus are unique to the **Curve Edit Mode**.
+## 🍰 Tool
 Keymap: `Shift + RMB Drag`
 Additional dependencies: N/A
 ```mermaid
@@ -252,7 +256,7 @@ graph TD
     linkStyle default stroke:transparent,stroke-width:0;
 ```
 
-## Action
+## 🍰 Action
 Keymap: `Ctrl + RMB Drag`
 Additional dependencies: N/A
 ```mermaid
@@ -284,7 +288,8 @@ graph TD
 
 # 🖌️ Sculpt
 ---
-## General
+These menus are unique to the **Sculpting** mode. They include all the brushes that come by default with Blender.
+## 🍰 General
 Keymap: `Shift + RMB Drag`
 Additional dependencies: N/A
 ```mermaid
@@ -317,7 +322,7 @@ _**Grab →**_ _Grab Silhouette, Elastic Snake Hook, Snake Hook, Nudge, Thumb, 
 **Misc →**_ _Density, Face Set Paint, Relax Slide, Smear Multires Displacement, Twist, Mask, Relax Pinch, Erase Multires Displacement  
 **Flatten/Pinch →**_ _Boundary, Scrape/Fill, Scrape Multiplane, Trim, Smooth, Plateau, Flatten/Contrast, Pinch/Magnify_
 
-## Paint
+## 🍰 Paint
 Keymap: `Ctrl + RMB Drag`
 Additional dependencies: N/A
 ```mermaid
@@ -346,7 +351,7 @@ graph TD
 ```
 _**Blend/Blur** **→**_ _Paint Blend, Blend Square, Blend Hard, Blend Soft, Smear, Airbrush_
 
-## Simulation
+## 🍰 Simulation
 Keymap: `Ctrl+ Alt + Shift + RMB Drag`
 Additional dependencies: N/A
 ```mermaid
@@ -380,7 +385,8 @@ _**Bend/Stretch/Twist →**_ _Twist Boundary Cloth, Bend/Twist Cloth, Stretch/M
 
 # 🗾 UV Editor
 ---
-## Tool
+These menus are unique to the **UV Editor** 2D View.
+## 🍰 Tool
 Keymap: `Shift + RMB Drag`
 Additional dependencies: [ZenUV](https://superhivemarket.com/products/zen-uv)
 ```mermaid
@@ -408,7 +414,7 @@ graph TD
     linkStyle default stroke:transparent,stroke-width:0;
 ```
 
-## Action
+## 🍰 Action
 Keymap: `Ctrl + RMB Drag`
 Dependencies: [ZenUV](https://superhivemarket.com/products/zen-uv)
 ```mermaid
@@ -437,7 +443,7 @@ graph TD
 ```
 _**Select →**_ _Select Interseam Loop, Select Seams Edges, Select Flipped Islands, Select Overlapped Islands, Select Similar Islands, Select Split Edges, Select Stretched Faces, Select UV Borders_
 
-## Action (Special)
+## 🍰 Action (Special)
 Keymap: `Ctrl + Alt + Shift + RMB Drag`
 Dependencies: [ZenUV](https://superhivemarket.com/products/zen-uv)
 ```mermaid
@@ -465,7 +471,7 @@ graph TD
     linkStyle default stroke:transparent,stroke-width:0;
 ```
 
-## Cursor
+## 🍰 Cursor
 Keymap: `Ctrl + Shift + RMB Drag`
 Dependencies: N/A
 ```mermaid
@@ -497,7 +503,7 @@ graph TD
 
 # 💾 File Management
 ---
-## Directories
+## 🍰 Directories
 Keymap: `F3`
 Dependencies: N/A
 ```mermaid
@@ -525,7 +531,7 @@ graph TD
     linkStyle default stroke:transparent,stroke-width:0;
 ```
 
-## Import / Export
+## 🍰 Import / Export
 Context: This menu functions in **Object Mode only**.
 Keymap: `Ctrl + Alt + Shift + RMB Click`
 Dependencies: N/A
