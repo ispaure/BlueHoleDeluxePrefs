@@ -7,15 +7,16 @@ Here is the list of Pie Menus for Blue Hole.
 
 # 📖 TABLE OF CONTENTS
 ---
-- [🧊 OBJECT MODE](#🧊-object-mode)
-- [🛠️ EDIT MESH MODE](#🛠️-edit-mesh-mode)
-- [🍑 CURVES](#🍑-curves)
-- [🖌️ SCULPT](#🖌️-sculpt)
-- [🗾 UV EDITOR](#🗾-uv-editor)
-- [💾 FILE MANAGEMENT](#💾-file-management)
-- [🙋‍♂️ HELP](#🙋‍♂️-help)
-- [🥧 PIE MENU LIST (WITH KEYMAPS)](#🥧-pie-menu-list-with-keymaps)
-- [🥷 USING THE PIE MENUS WITHOUT DELUXE](#🥷-using-the-pie-menus-without-deluxe)
+Feel free to use this Table of Contents. You can also search this page for any keyword such as `extrude` to find its pie menu quickly.
+- [🧊 OBJECT MODE](#object-mode)
+- [🛠️ EDIT MESH MODE](#edit-mesh-mode)
+- [🍑 CURVES](#curves)
+- [🖌️ SCULPT](#sculpt)
+- [🗾 UV EDITOR](#uv-editor)
+- [💾 FILE MANAGEMENT](#file-management)
+- [🙋‍♂️ HELP](#help)
+- [🥧 PIE MENU LIST (WITH KEYMAPS)](#pie-menu-list-with-keymaps)
+- [🥷 USING THE PIE MENUS WITHOUT DELUXE](#using-the-pie-menus-without-deluxe)
 
 # 🧊 **OBJECT MODE**
 ---
