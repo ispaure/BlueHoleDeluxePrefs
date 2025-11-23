@@ -19,7 +19,6 @@ Feel free to use this Table of Contents. You can also search this page for any k
 - [❄️ TRANFORM](#️-tranform)
 - [🧊 MODELING MODE](#-modeling-mode)
 - [🎨 SCULPTING MODE](#-sculpting-mode)
-- [🥧 FULL PIE MENU LIST](#-full-pie-menu-list)
 - [❓ ADDITIONAL INFORMATION](#-additional-information)
 
 
@@ -255,35 +254,6 @@ Set a zone of soft influence for the transform.
 | -------------------- | --------------------- | -------------------------- | --------------- |
 | Sculpt Tool Radius   | Shift + Wheel Up/Down | Shift + Space + Drag Mouse |                 |
 | Sculpt Tool Hardness | Ctrl + Space          |                            | ==Not working== |
-
-
-# 🥧 **FULL PIE MENU LIST**
----
-Here is a list of the pie menus available to you, as well as some important information:
-- Name: Name of the Pie Menu
-- Context: Where in Blender can it be triggered/enabled
-- Keymap: Which hotkey to press to trigger it
-- Origin: From where does it come from
-- Description: What is its purpose?
-
-| **Name**                          | **Context**                             | **Keymap**                              | **Origin**                   | **Description**                                                                                                      |
-| --------------------------------- | --------------------------------------- | --------------------------------------- | ---------------------------- | -------------------------------------------------------------------------------------------------------------------- |
-| Shading and Overlays              | 3D Viewport                             | Z                                       | ?                            | Pie Menu to switch between View/Rendering styles, Shading and Normal adjustments.                                    |
-| Help                              |                                         | F1                                      | Blue Hole                    | Pie Menu that links to documentation and offers a way to give feedback.                                              |
-| Directories                       |                                         | F3                                      | Blue Hole                    | Quickly navigate to commonly used directories.                                                                       |
-| Import/Export                     | 3D Viewport (Object Mode only)          | Ctrl + Alt + Shift + RMB                | Blue Hole                    | Pie Menu with quick import-export options.                                                                           |
-| Tools                             | Many                                    | Shift + RMB Drag                        | Blue Hole                    | Offers many helpful tools in various contexts such as: Object Mode, Verts/Edge/Face Mode, Curve, Sculpt & UV Mode.   |
-| Action                            | Many                                    | Ctrl + RMB Drag                         | Blue                         | Offers many helpful actions in various contexts such as: Object Mode, Verts/Edge/Face Mode, Curve, Sculpt & UV Mode. |
-| Action (UV Special)               | 3D Viewport (Mesh Mode only), UV Editor | Ctrl + Alt + Shift + RMB Drag           | Blue Hole                    | Offers helpful options related to UV unwrapping: mark seam, clear seam, unwrap, etc.                                 |
-| Cursor and Origin                 | 3D Viewport, UV Editor                  | Ctrl + Shift + RMB                      | Blender & Blue Hole (Hybrid) | Cursor and Origin Options (Menu in 3D Viewport comes with Blender; Menu in UV Editor comes from Blue Hole).          |
-| Transform: Pivot and Orientations | 3D Viewport                             | Shift + Alt + RMB                       | ?                            | Set the Orientation target or the Pivot Method, with multiple Presets or set New Custom Orientation.                 |
-| Snapping Pie                      | 3D Viewport                             | Ctrl + Alt + RMB                        | ?                            | Quick snapping presets for every modes.                                                                              |
-| Quick Align Pie                   | 3D Viewport (Mesh Mode only)            | Alt + W                                 | ?                            | Quick Align Functionalities for Object, Mesh and UV.                                                                 |
-| Mode                              | Many                                    | RMB Drag                                | Blender                      | Switch Between any Mode: Object/Vertex/Edge/Face/Curve/Sculpt/UV/Paint/etc.                                          |
-| Save, Open, Append                | 3D Viewport                             | Alt + Shift + S                         |                              | Save, Open, Append to Scene Pie                                                                                      |
-| Create                            | 3D Viewport                             | Shift + A + Drag Mouse in Any Direction | Blue Hole                    | Create new shapes, curves, etc.                                                                                      |
-| Hide                              | 3D Viewport                             | Shift + S + Drag Mouse in Any Direction | Blue Hole                    | Hide Selection, Isolate Selection, Reveal Hidden (All)                                                               |
-| Collection                        | 3D Viewport                             | C + Drag Mouse in Any Direction         | Blender                      | Pie Menu for Collections                                                                                             |
 
 # ❓**ADDITIONAL INFORMATION**
 ---

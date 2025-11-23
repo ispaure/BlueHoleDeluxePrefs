@@ -5,12 +5,25 @@ Here is the list of Pie Menus for Blue Hole.
 > Added dependencies are noted (whenever applicable). The menu would still popup but some option(s) may be missing, with shown warnings.
 
 
-# 🧊 Object Mode
+# 📖 TABLE OF CONTENTS
+---
+- [🧊 OBJECT MODE](#🧊-object-mode)
+- [🛠️ EDIT MESH MODE](#🛠️-edit-mesh-mode)
+- [🍑 CURVES](#🍑-curves)
+- [🖌️ SCULPT](#🖌️-sculpt)
+- [🗾 UV EDITOR](#🗾-uv-editor)
+- [💾 FILE MANAGEMENT](#💾-file-management)
+- [🙋‍♂️ HELP](#🙋‍♂️-help)
+- [🥧 PIE MENU LIST (WITH KEYMAPS)](#🥧-pie-menu-list-with-keymaps)
+- [🥷 USING THE PIE MENUS WITHOUT DELUXE](#🥷-using-the-pie-menus-without-deluxe)
+
+# 🧊 **OBJECT MODE**
 ---
 These menus are unique to **Object Mode**.
 ## 🍰 Tool
 Keymap: `Shift + RMB Drag`
 Additional dependencies: [HardOPS](https://superhivemarket.com/products/hard-ops--boxcutter-ultimate-bundle).
+Internal name: `BLUEHOLE_MT_pie_object_tool`
 ```mermaid
 graph TD
 
@@ -40,6 +53,7 @@ _**Modifier Options** → Link/Transfer Data, Apply Modifiers_
 ## 🍰 Action
 Keymap: `Ctrl + RMB Drag`
 Additional dependencies: N/A
+Internal Name: `BLUEHOLE_MT_pie_object_action`
 ```mermaid
 graph TD
 
@@ -69,12 +83,13 @@ _**Select** → Select Grouped, Select Parent, Invert, Select Children
 
 
 
-# 🛠️ Edit Mesh Mode
+# 🛠️ **EDIT MESH MODE**
 ---
 These menus are unique to **Mesh Edit Mode**, which corresponds to **Vertex**, **Edge** and **Face** selection.
 ## 🍰 Tool
 Keymap: `Shift + RMB Drag`
 Additional dependencies: N/A
+Internal Name: `BLUEHOLE_MT_pie_mesh_tool`
 ```mermaid
 graph TD
 
@@ -104,6 +119,7 @@ graph TD
 Context: **Vertex Edit Mode**
 Keymap: `Ctrl + RMB Drag`
 Additional dependencies: N/A
+Internal Name: `BLUEHOLE_MT_pie_mesh_action`
 ```mermaid
 graph TD
 
@@ -135,6 +151,7 @@ _**More →**_ _To Sphere, Symmetrize, Quick Flatten, Vertex to Circle, Quick L
 Context: **Edge Edit Mode**
 Keymap: `Ctrl + RMB Drag`
 Additional dependencies: N/A
+Internal Name: `BLUEHOLE_MT_pie_mesh_action`
 ```mermaid
 graph TD
 
@@ -166,6 +183,7 @@ _**More →**_ _Subdivide Edge-Ring, Rotate Selected Edge (Right), Quick Pipe, 
 Context: **Face Edit Mode**
 Keymap: `Ctrl + RMB Drag`
 Additional dependencies: N/A
+Internal Name: `BLUEHOLE_MT_pie_mesh_action`
 ```mermaid
 graph TD
 
@@ -198,6 +216,7 @@ _**More →**_ _Poke Face, Recalculate Normals Inside, Recalculate Normals Outs
 Keymap: `Ctrl + Alt + Shift + RMB Drag`
 Additional dependencies: [ZenUV](https://superhivemarket.com/products/zen-uv), [DreamUV](https://github.com/leukbaars/DreamUV)
 Additional dependencies: N/A
+Internal Name: `BLUEHOLE_MT_pie_mesh_action_uvspecial`
 ```mermaid
 graph TD
 
@@ -225,12 +244,13 @@ graph TD
 
 
 
-# 🍑 Curves
+# 🍑 **CURVES**
 ---
 These menus are unique to the **Curve Edit Mode**.
 ## 🍰 Tool
 Keymap: `Shift + RMB Drag`
 Additional dependencies: N/A
+Internal Name: `BLUEHOLE_MT_pie_curve_tool`
 ```mermaid
 graph TD
 
@@ -259,6 +279,7 @@ graph TD
 ## 🍰 Action
 Keymap: `Ctrl + RMB Drag`
 Additional dependencies: N/A
+Internal Name: `BLUEHOLE_MT_pie_curve_action`
 ```mermaid
 graph TD
 
@@ -286,12 +307,13 @@ graph TD
 
 
 
-# 🖌️ Sculpt
+# 🖌️ **SCULPT**
 ---
 These menus are unique to the **Sculpting** mode. They include all the brushes that come by default with Blender.
 ## 🍰 General
 Keymap: `Shift + RMB Drag`
 Additional dependencies: N/A
+Internal Name: `BLUEHOLE_MT_pie_sculpt_tool`
 ```mermaid
 graph TD
 
@@ -325,6 +347,7 @@ _**Grab →**_ _Grab Silhouette, Elastic Snake Hook, Snake Hook, Nudge, Thumb, 
 ## 🍰 Paint
 Keymap: `Ctrl + RMB Drag`
 Additional dependencies: N/A
+Internal Name: `BLUEHOLE_MT_pie_sculpt_action`
 ```mermaid
 graph TD
 
@@ -354,6 +377,7 @@ _**Blend/Blur** **→**_ _Paint Blend, Blend Square, Blend Hard, Blend Soft, S
 ## 🍰 Simulation
 Keymap: `Ctrl+ Alt + Shift + RMB Drag`
 Additional dependencies: N/A
+Internal Name: `BLUEHOLE_MT_pie_sculpt_simulation`
 ```mermaid
 graph TD
 
@@ -383,12 +407,13 @@ _**Bend/Stretch/Twist →**_ _Twist Boundary Cloth, Bend/Twist Cloth, Stretch/M
 
 
 
-# 🗾 UV Editor
+# 🗾 **UV EDITOR**
 ---
 These menus are unique to the **UV Editor** 2D View.
 ## 🍰 Tool
 Keymap: `Shift + RMB Drag`
 Additional dependencies: [ZenUV](https://superhivemarket.com/products/zen-uv)
+Internal Name: `BLUEHOLE_MT_pie_UV_tool`
 ```mermaid
 graph TD
 
@@ -417,6 +442,7 @@ graph TD
 ## 🍰 Action
 Keymap: `Ctrl + RMB Drag`
 Dependencies: [ZenUV](https://superhivemarket.com/products/zen-uv)
+Internal Name: `BLUEHOLE_MT_pie_UV_action`
 ```mermaid
 graph TD
 
@@ -446,6 +472,7 @@ _**Select →**_ _Select Interseam Loop, Select Seams Edges, Select Flipped Isl
 ## 🍰 Action (Special)
 Keymap: `Ctrl + Alt + Shift + RMB Drag`
 Dependencies: [ZenUV](https://superhivemarket.com/products/zen-uv)
+Internal Name: `BLUEHOLE_MT_pie_UV_action_uvspecial`
 ```mermaid
 graph TD
 
@@ -474,6 +501,7 @@ graph TD
 ## 🍰 Cursor
 Keymap: `Ctrl + Shift + RMB Drag`
 Dependencies: N/A
+Internal Name: `BLUEHOLE_MT_pie_UV_cursor`
 ```mermaid
 graph TD
 
@@ -501,11 +529,12 @@ graph TD
 
 
 
-# 💾 File Management
+# 💾 **FILE MANAGEMENT**
 ---
 ## 🍰 Directories
 Keymap: `F3`
 Dependencies: N/A
+Internal Name: `BLUEHOLE_MT_pie_global_dirs`
 ```mermaid
 graph TD
 
@@ -535,6 +564,7 @@ graph TD
 Context: This menu functions in **Object Mode only**.
 Keymap: `Ctrl + Alt + Shift + RMB Click`
 Dependencies: N/A
+Internal Name: `BLUEHOLE_MT_pie_global_import_export`
 ```mermaid
 graph TD
 
@@ -562,7 +592,7 @@ graph TD
 
 
 
-# 🙋‍♂️ Help
+# 🙋‍♂️ **HELP**
 ---
 Keymap: `F1`
 Dependencies: N/A
@@ -590,3 +620,43 @@ graph TD
     %% Hide all connectors AND arrowheads
     linkStyle default stroke:transparent,stroke-width:0;
 ```
+
+
+
+# 🥧 **PIE MENU LIST (WITH KEYMAPS)**
+---
+Here is a list of the pie menus available to you, as well as some important information:
+- Name: Name of the Pie Menu
+- Context: Where in Blender can it be triggered/enabled
+- Keymap: Which hotkey to press to trigger it
+- Origin: From where does it come from
+- Description: What is its purpose?
+
+| **Name**                          | **Context**                             | **Keymap**                                | **Origin**                   | **Description**                                                                                                      |
+| --------------------------------- | --------------------------------------- | ----------------------------------------- | ---------------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| Shading and Overlays              | 3D Viewport                             | `Z`                                       | ?                            | Pie Menu to switch between View/Rendering styles, Shading and Normal adjustments.                                    |
+| Help                              |                                         | `F1`                                      | Blue Hole                    | Pie Menu that links to documentation and offers a way to give feedback.                                              |
+| Directories                       |                                         | `F3`                                      | Blue Hole                    | Quickly navigate to commonly used directories.                                                                       |
+| Import/Export                     | 3D Viewport (Object Mode only)          | `Ctrl + Alt + Shift + RMB`                | Blue Hole                    | Pie Menu with quick import-export options.                                                                           |
+| Tools                             | Many                                    | `Shift + RMB Drag`                        | Blue Hole                    | Offers many helpful tools in various contexts such as: Object Mode, Verts/Edge/Face Mode, Curve, Sculpt & UV Mode.   |
+| Action                            | Many                                    | `Ctrl + RMB Drag`                         | Blue                         | Offers many helpful actions in various contexts such as: Object Mode, Verts/Edge/Face Mode, Curve, Sculpt & UV Mode. |
+| Action (UV Special)               | 3D Viewport (Mesh Mode only), UV Editor | `Ctrl + Alt + Shift + RMB Drag`           | Blue Hole                    | Offers helpful options related to UV unwrapping: mark seam, clear seam, unwrap, etc.                                 |
+| Cursor and Origin                 | 3D Viewport, UV Editor                  | `Ctrl + Shift + RMB`                      | Blender & Blue Hole (Hybrid) | Cursor and Origin Options (Menu in 3D Viewport comes with Blender; Menu in UV Editor comes from Blue Hole).          |
+| Transform: Pivot and Orientations | 3D Viewport                             | `Shift + Alt + RMB`                       | ?                            | Set the Orientation target or the Pivot Method, with multiple Presets or set New Custom Orientation.                 |
+| Snapping Pie                      | 3D Viewport                             | `Ctrl + Alt + RMB`                        | ?                            | Quick snapping presets for every modes.                                                                              |
+| Quick Align Pie                   | 3D Viewport (Mesh Mode only)            | `Alt + W`                                 | ?                            | Quick Align Functionalities for Object, Mesh and UV.                                                                 |
+| Mode                              | Many                                    | `RMB Drag`                                | Blender                      | Switch Between any Mode: Object/Vertex/Edge/Face/Curve/Sculpt/UV/Paint/etc.                                          |
+| Save, Open, Append                | 3D Viewport                             | `Alt + Shift + S`                         |                              | Save, Open, Append to Scene Pie                                                                                      |
+| Create                            | 3D Viewport                             | `Shift + A + Drag Mouse in Any Direction` | Blue Hole                    | Create new shapes, curves, etc.                                                                                      |
+| Hide                              | 3D Viewport                             | `Shift + S + Drag Mouse in Any Direction` | Blue Hole                    | Hide Selection, Isolate Selection, Reveal Hidden (All)                                                               |
+| Collection                        | 3D Viewport                             | `C + Drag Mouse in Any Direction`         | Blender                      | Pie Menu for Collections                                                                                             |
+
+
+# 🥷 **USING THE PIE MENUS WITHOUT DELUXE**
+---
+If you want to use the pie menus whilst using Blue Hole Regular (non-deluxe), you can bind keymaps to the menus by yourself.
+1. Navigate to `Blender Settings`
+2. Navigate to the `Keymap` Tab
+3. Find the proper context for the pie menu (eg. UV Editor)
+4. Add a new keymap entry
+5. Just make sure to use the `wm.open_menu_pie` operator and use the `Internal Name` specified under each Pie Menu in this document as name of the pie menu.
