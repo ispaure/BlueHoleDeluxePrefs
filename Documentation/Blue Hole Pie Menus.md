@@ -215,7 +215,7 @@ _**Select →**_ _Boundary Loop, Linked Flat Faces, Invert, Loose Geometry, Ran
 _**More →**_ _Poke Face, Recalculate Normals Inside, Recalculate Normals Outside, Subdivide, Tris to Quads, Flip, Triangulate Faces, Un-Subdivide_
   
 ## 🍰 Action UV Special (Vertex, Edge, Face)
-*This menu has **UV-related** options. It is available from all three **Vertex**, **Edge** and **Face** modes.*
+*This menu has **UV-related** options. It is available from all three **Vertex**, **Edge** and **Face** modes..  
 Keymap: `Ctrl + Alt + Shift + RMB Drag`  
 Additional dependencies: [ZenUV](https://superhivemarket.com/products/zen-uv), [DreamUV](https://github.com/leukbaars/DreamUV)  
 Additional dependencies: N/A  
