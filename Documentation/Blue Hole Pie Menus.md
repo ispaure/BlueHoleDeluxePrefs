@@ -230,7 +230,7 @@ graph TD
 
     N["Hotspot"]
     C["**ACTION UV SPECIAL**"]
-    S["Zen Unwrap"]
+    S["Unwrap Conformal"]
 
     NE["Fit to Trim"]
     E["Mark Seam"]
@@ -430,7 +430,7 @@ graph TD
 
     N["Quick Rotate"]
     C["**TOOL (UV) PIE**"]
-    S["Zen Unwrap"]
+    S["Unwrap Conformal"]
 
     NE["Quick Fit"]
     E["Relax"]
@@ -489,7 +489,7 @@ graph TD
 
     N["Select Trim Tool"]
     C["**ACTION (Special) PIE**"]
-    S["Zen Unwrap"]
+    S["Unwrap Conformal"]
 
     NE["Fit to Trim"]
     E["World Orient"]
